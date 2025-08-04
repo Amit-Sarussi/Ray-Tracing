@@ -1,18 +1,21 @@
-## Getting Started
+# Ray Tracing
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple ray tracing project implemented in Java. This project demonstrates the fundamentals of ray tracing, including rendering spheres, handling reflections, and basic lighting.
+All math and logic in this project were implemented from scratch without using any external libraries.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Ray-sphere intersection
+- Diffuse and specular lighting
+- Shadows
+- Reflections
+- Configurable scene setup
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Usage
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Configure the scene by editing the source code (add spheres, lights, etc.).
+- Output images are saved to the project directory.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Example Output
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Rendered Scene](example-output.png)
